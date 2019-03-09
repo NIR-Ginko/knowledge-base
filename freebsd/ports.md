@@ -1,8 +1,18 @@
 # Working with port system
 
+* [Working with ports tree](#working-with-ports-tree)
 * [Python versions problem](#python-versions-problem)
 
 * * *
+
+
+## Working with ports tree
+
+To download port updates do:
+
+```
+portsnap fetch
+```
 
 
 ## Python versions problem
