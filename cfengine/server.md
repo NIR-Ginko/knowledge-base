@@ -7,6 +7,7 @@
 * [Setup executables](#setup-executables)
 * [Create server configuration files](#create-server-configuration-files)
 * [CFEngine Policy Hub bootstrap](#cfengine-policy-hub-bootstrap)
+* [FAQ](#faq)
 
 * * *
 
@@ -83,4 +84,13 @@ Substitute `192.168.8.100` part with your's host interface.
 
 In order to bootsrap the server `/var/cfengine/masterfiles/promises.cf`
 file must be present.
+
+
+## FAQ
+
+- **Q:** Why do I need to have `/var/cfengine/masterfiles/promises.cf`
+  present in case I already have one in `/var/cfengine/inputs/promises.cf`?
+- **A:** In case of client-server model the files from server's
+  `/var/cfengine/inputs` directory will be replicated to client's
+  `/var/cfengine/masterfiles` directory.
 
