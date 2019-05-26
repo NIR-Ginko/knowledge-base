@@ -13,7 +13,7 @@
 Add your user to hasher:
 
 ```
-$ sudo /usr/sbin/hasher-useradd <user>
+sudo /usr/sbin/hasher-useradd <user>
 ```
 
 Logout and then login again to apply new groups information.
@@ -47,7 +47,7 @@ git config --global user.email "nir@sarfsc.ru"
 Add something like the sample below to your `~/.rpmmacros`:
 
 ```
-%packager Igor NIR Chudov <nir@sarfsc.ru>
+%packager Igor Chudov <nir@sarfsc.ru>
 ```
 
 

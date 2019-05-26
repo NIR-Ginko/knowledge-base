@@ -6,4 +6,9 @@
 * [My experience of writing WebAssembly in Rust](wasm/wasm.md)
 * [Working with SSH](ssh/ssh.md)
 * [Informational security](security/security.md)
+* [Notes on working with REDUCE Algebra](math/reduce.md)
+* [Networking](networking/networking.md)
+* [CFEngine on FreeBSD](cfengine/server.md)
+
+* * *
 

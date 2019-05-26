@@ -21,6 +21,9 @@ $ sudo apt-get install git \
 	build-environment \
 	rpm-utils \
 	rpm-build \
-	rpm-build-licenses
+	rpm-build-licenses \
+	rpm-macros-cmake \
+	rpm-macros-make \
+	rpm-macros-generic-compat
 ```
 
