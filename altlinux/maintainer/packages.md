@@ -24,6 +24,8 @@ $ sudo apt-get install git \
 	rpm-build-licenses \
 	rpm-macros-cmake \
 	rpm-macros-make \
-	rpm-macros-generic-compat
+	rpm-macros-generic-compat \
+	apt-repo \
+	apt-repo-tools
 ```
 
