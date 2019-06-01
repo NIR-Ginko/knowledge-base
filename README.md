@@ -10,6 +10,7 @@
 * [Networking](networking/networking.md)
 * [CFEngine on FreeBSD](cfengine/index.md)
 * [Working with Samba in ALT Linux](samba/index.md)
+* [X.org server on FreeBSD](xorg/index.md)
 
 * * *
 
