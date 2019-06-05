@@ -37,8 +37,8 @@ mount=/dev/pts,/proc
 Then configure Git like:
 
 ```
-git config --global user.name "Igor NIR Chudov"
-git config --global user.email "nir@sarfsc.ru"
+git config --global user.name "Igor Chudov"
+git config --global user.email "nir@altlinux.org"
 ```
 
 
@@ -47,7 +47,8 @@ git config --global user.email "nir@sarfsc.ru"
 Add something like the sample below to your `~/.rpmmacros`:
 
 ```
-%packager Igor Chudov <nir@sarfsc.ru>
+%packager Igor Chudov <nir@altlinux.org>
+%_gpg_name nir@altlinux.org
 ```
 
 
